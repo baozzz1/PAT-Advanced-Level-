@@ -117,6 +117,7 @@
   <ItemGroup>
     <ClCompile Include="1001 A+B Format.cpp" />
     <ClCompile Include="1002 A+B for Polynomials.cpp" />
+    <ClCompile Include="1003 Emergency.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
