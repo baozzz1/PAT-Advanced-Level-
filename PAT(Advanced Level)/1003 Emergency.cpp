@@ -26,7 +26,7 @@ Graph::Graph(int V) {
 }
 
 //Graph
-int main() {
+int P1003() {
 	int N, M, C1, C2;
 	cin >> N >> M >> C1 >> C2;
 	vector<int> rescueTeams(N);
