@@ -26,4 +26,5 @@ int P1011() {
 		}
 	printf("%.2f", sum);
 
+	return 0;
 }

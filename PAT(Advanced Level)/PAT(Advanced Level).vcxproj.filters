@@ -37,5 +37,8 @@
     <ClCompile Include="1013 Battle Over Cities.cpp">
       <Filter>test 4th</Filter>
     </ClCompile>
+    <ClCompile Include="1014 Waiting in Line.cpp">
+      <Filter>test 4th</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
