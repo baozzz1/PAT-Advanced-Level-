@@ -20,6 +20,9 @@
     <Filter Include="1144-1147">
       <UniqueIdentifier>{30b27905-2712-4a2b-90ec-fb4d049cbec8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Tree">
+      <UniqueIdentifier>{742df4f3-8b31-4091-8362-ee75fb672709}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1001 A+B Format.cpp">
@@ -66,6 +69,15 @@
     </ClCompile>
     <ClCompile Include="1145 Hashing - Average Search Time.cpp">
       <Filter>1144-1147</Filter>
+    </ClCompile>
+    <ClCompile Include="1043 Is It a Binary Search Tree.cpp">
+      <Filter>Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="preOrder-inOrder-postOrder Transaction.cpp">
+      <Filter>Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="1115 Counting Nodes in a BST.cpp">
+      <Filter>Tree</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
