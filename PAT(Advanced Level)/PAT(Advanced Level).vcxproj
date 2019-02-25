@@ -127,6 +127,7 @@
     <ClCompile Include="1015 Reversible Primes.cpp" />
     <ClCompile Include="1043 Is It a Binary Search Tree.cpp" />
     <ClCompile Include="1115 Counting Nodes in a BST.cpp" />
+    <ClCompile Include="1127 ZigZagging on a Tree.cpp" />
     <ClCompile Include="1144 The Missing Number.cpp" />
     <ClCompile Include="1145 Hashing - Average Search Time.cpp" />
     <ClCompile Include="1151 LCA in a Binary Tree.cpp" />

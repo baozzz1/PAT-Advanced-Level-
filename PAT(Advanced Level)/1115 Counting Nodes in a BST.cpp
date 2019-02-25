@@ -1,6 +1,7 @@
 #include<iostream>
 #include<vector>
 #include<cstdio>
+#include<map>
 using namespace std;
 
 class TreeNode {
@@ -24,12 +25,26 @@ public:
 			node->right = insert(val, node->right);
 		return node;
 	}
-private:
-	TreeNode *root = NULL;
 
+	void dfs() {
+		int depth = 1;
+		dfs(root, depth);
+	}
+
+	void dfs(TreeNode *node,const int &depth) {
+		if (node == NULL)
+			return;
+		dfs(node->left, depth + 1);
+		dfs(node->right, depth + 1);
+		depthNumCount[depth]++;
+		return;
+	}
+	TreeNode *root = NULL;
+	vector<int> depthNumCount = vector<int>(1001,0);
 };
-//START 2019Äê2ÔÂ24ÈÕ23:04:34
-int main() {
+
+
+int P1115() {
 	int N; cin >> N;
 	vector<int> vec(N);
 	BST bst;
@@ -37,6 +52,19 @@ int main() {
 		scanf_s("%d", &vec[i]);
 		bst.insert(vec[i]);
 	}
-
+	bst.dfs();
+	int a, b, count = 0;
+	for (int i = 1000; i > 0; i--) {
+		if (bst.depthNumCount[i] != 0) {
+			count++;
+			if (count == 1)
+				a = bst.depthNumCount[i];
+			else if (count == 2)
+				b = bst.depthNumCount[i];
+			else
+				break;
+		}
+	}
+	cout << a << " + " << b << " = " << a + b;
 	return 0;
 }
