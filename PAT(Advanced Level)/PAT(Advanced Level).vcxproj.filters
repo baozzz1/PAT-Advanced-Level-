@@ -94,5 +94,11 @@
     <ClCompile Include="1110 Complete Binary Tree.cpp">
       <Filter>Tree</Filter>
     </ClCompile>
+    <ClCompile Include="1130 Infix Expression.cpp">
+      <Filter>Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="1143 Lowest Common Ancestor .cpp">
+      <Filter>Tree</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

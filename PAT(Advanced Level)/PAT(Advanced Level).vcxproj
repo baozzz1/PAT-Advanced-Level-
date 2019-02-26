@@ -130,7 +130,9 @@
     <ClCompile Include="1115 Counting Nodes in a BST.cpp" />
     <ClCompile Include="1123 Is It a Complete AVL Tree.cpp" />
     <ClCompile Include="1127 ZigZagging on a Tree.cpp" />
+    <ClCompile Include="1130 Infix Expression.cpp" />
     <ClCompile Include="1138 Postorder Traversal.cpp" />
+    <ClCompile Include="1143 Lowest Common Ancestor .cpp" />
     <ClCompile Include="1144 The Missing Number.cpp" />
     <ClCompile Include="1145 Hashing - Average Search Time.cpp" />
     <ClCompile Include="1147 Heaps.cpp" />
