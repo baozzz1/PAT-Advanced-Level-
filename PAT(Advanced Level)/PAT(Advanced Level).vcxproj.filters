@@ -82,5 +82,17 @@
     <ClCompile Include="1127 ZigZagging on a Tree.cpp">
       <Filter>Tree</Filter>
     </ClCompile>
+    <ClCompile Include="1123 Is It a Complete AVL Tree.cpp">
+      <Filter>Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="1138 Postorder Traversal.cpp">
+      <Filter>Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="1147 Heaps.cpp">
+      <Filter>Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="1110 Complete Binary Tree.cpp">
+      <Filter>Tree</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
