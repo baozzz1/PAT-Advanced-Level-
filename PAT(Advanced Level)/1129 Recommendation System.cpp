@@ -8,18 +8,17 @@
 
 using namespace std;
 vector<int> itemsSearchTimes;
-class cmp{
+class cmp {
 public:
-	bool operator()(const int &index1, const int &index2) {
-	if (itemsSearchTimes[index1] == itemsSearchTimes[index2])
-		return index1 < index2;
-	else
-		return itemsSearchTimes[index1] < itemsSearchTimes[index2];
-}
+	bool operator()(const int &index1, const int &index2)const {
+		if (itemsSearchTimes[index1] == itemsSearchTimes[index2])
+			return index1 < index2;
+		else
+			return itemsSearchTimes[index1] > itemsSearchTimes[index2];
+	}
 };
-typedef priority_queue<int, set<int>, cmp> pq;
-
-int main() {
+//×¢ÒâsetµÄstd::less
+int P1129() {
 	int N, K;
 	cin >> N >> K;
 	itemsSearchTimes = vector<int>(N + 1, 0);
@@ -32,11 +31,12 @@ int main() {
 	while (cin >> num) {
 		cout << num << ":";
 		auto iter = recommed.begin();
-		for (int i = 0; i < K && iter!=recommed.end(); i++) {
+		for (int i = 0; i < K && iter != recommed.end(); i++) {
 			cout << " " << *iter;
 			iter++;
 		}
 		cout << endl;
+		recommed.erase(num);
 		itemsSearchTimes[num]++;
 		recommed.insert(num);
 	}
