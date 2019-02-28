@@ -32,6 +32,9 @@
     <Filter Include="1136-1139">
       <UniqueIdentifier>{c7bca62d-c9f2-4137-b758-8cc065d94c31}</UniqueIdentifier>
     </Filter>
+    <Filter Include="1132-1135_forTest">
+      <UniqueIdentifier>{a48cfc51-7d00-40e8-8511-735fc66bb153}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1001 A+B Format.cpp">
@@ -128,6 +131,12 @@
       <Filter>1140-1143</Filter>
     </ClCompile>
     <ClCompile Include="1136 A Delayed Palindrome.cpp">
+      <Filter>1136-1139</Filter>
+    </ClCompile>
+    <ClCompile Include="1137 Final Grading.cpp">
+      <Filter>1136-1139</Filter>
+    </ClCompile>
+    <ClCompile Include="1139 First Contact.cpp">
       <Filter>1136-1139</Filter>
     </ClCompile>
   </ItemGroup>

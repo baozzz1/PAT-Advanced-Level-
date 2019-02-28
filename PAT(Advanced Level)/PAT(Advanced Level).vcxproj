@@ -135,7 +135,9 @@
     <ClCompile Include="1129 Recommendation System.cpp" />
     <ClCompile Include="1130 Infix Expression.cpp" />
     <ClCompile Include="1136 A Delayed Palindrome.cpp" />
+    <ClCompile Include="1137 Final Grading.cpp" />
     <ClCompile Include="1138 Postorder Traversal.cpp" />
+    <ClCompile Include="1139 First Contact.cpp" />
     <ClCompile Include="1140 Look-and-say Sequence.cpp" />
     <ClCompile Include="1141 PAT Ranking of Institutions.cpp" />
     <ClCompile Include="1142 Maximal Clique.cpp" />
