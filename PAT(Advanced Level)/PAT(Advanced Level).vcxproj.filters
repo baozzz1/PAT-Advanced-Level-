@@ -26,6 +26,12 @@
     <Filter Include="graph">
       <UniqueIdentifier>{c368c563-ecd4-47f2-aba5-ab4cb0f783cd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="1140-1143">
+      <UniqueIdentifier>{3f7db5ca-aa07-4638-a933-0a44da2acb93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1136-1139">
+      <UniqueIdentifier>{c7bca62d-c9f2-4137-b758-8cc065d94c31}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1001 A+B Format.cpp">
@@ -111,6 +117,18 @@
     </ClCompile>
     <ClCompile Include="1022 Digital Library.cpp">
       <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="1140 Look-and-say Sequence.cpp">
+      <Filter>1140-1143</Filter>
+    </ClCompile>
+    <ClCompile Include="1141 PAT Ranking of Institutions.cpp">
+      <Filter>1140-1143</Filter>
+    </ClCompile>
+    <ClCompile Include="1142 Maximal Clique.cpp">
+      <Filter>1140-1143</Filter>
+    </ClCompile>
+    <ClCompile Include="1136 A Delayed Palindrome.cpp">
+      <Filter>1136-1139</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
