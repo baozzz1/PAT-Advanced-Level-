@@ -125,9 +125,11 @@
     <ClCompile Include="1013 Battle Over Cities.cpp" />
     <ClCompile Include="1014 Waiting in Line.cpp" />
     <ClCompile Include="1015 Reversible Primes.cpp" />
+    <ClCompile Include="1022 Digital Library.cpp" />
     <ClCompile Include="1043 Is It a Binary Search Tree.cpp" />
     <ClCompile Include="1110 Complete Binary Tree.cpp" />
     <ClCompile Include="1115 Counting Nodes in a BST.cpp" />
+    <ClCompile Include="1121 Damn Single.cpp" />
     <ClCompile Include="1123 Is It a Complete AVL Tree.cpp" />
     <ClCompile Include="1127 ZigZagging on a Tree.cpp" />
     <ClCompile Include="1129 Recommendation System.cpp" />

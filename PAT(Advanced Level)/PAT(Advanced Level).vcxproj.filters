@@ -23,6 +23,9 @@
     <Filter Include="algorithms">
       <UniqueIdentifier>{3edc85be-0581-4294-a68e-2253ad52ab93}</UniqueIdentifier>
     </Filter>
+    <Filter Include="graph">
+      <UniqueIdentifier>{c368c563-ecd4-47f2-aba5-ab4cb0f783cd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1001 A+B Format.cpp">
@@ -102,6 +105,12 @@
     </ClCompile>
     <ClCompile Include="1129 Recommendation System.cpp">
       <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="1121 Damn Single.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="1022 Digital Library.cpp">
+      <Filter>source</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
