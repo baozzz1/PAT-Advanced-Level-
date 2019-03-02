@@ -157,7 +157,7 @@ bool cmp(node x, node y) {
 //新PAT系统中原代码导致了一个测试点内存超限，使用unordered_map<int, bool> arr 替代二维数组可避免内存超限
 int P1139() {
 	int n, m, k;
-	scanf("%d%d", &n, &m);
+	scanf_s("%d%d", &n, &m);
 	vector<int> v[10000];
 	for (int i = 0; i < m; i++) {
 		string a, b;
@@ -168,7 +168,7 @@ int P1139() {
 		}
 		arr[abs(stoi(a)) * 10000 + abs(stoi(b))] = arr[abs(stoi(b)) * 10000 + abs(stoi(a))] = true;
 	}
-	scanf("%d", &k);
+	scanf_s("%d", &k);
 	for (int i = 0; i < k; i++) {
 		int c, d;
 		cin >> c >> d;

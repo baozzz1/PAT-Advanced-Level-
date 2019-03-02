@@ -23,9 +23,6 @@
     <Filter Include="algorithms">
       <UniqueIdentifier>{3edc85be-0581-4294-a68e-2253ad52ab93}</UniqueIdentifier>
     </Filter>
-    <Filter Include="graph">
-      <UniqueIdentifier>{c368c563-ecd4-47f2-aba5-ab4cb0f783cd}</UniqueIdentifier>
-    </Filter>
     <Filter Include="1140-1143">
       <UniqueIdentifier>{3f7db5ca-aa07-4638-a933-0a44da2acb93}</UniqueIdentifier>
     </Filter>
@@ -34,6 +31,12 @@
     </Filter>
     <Filter Include="1132-1135_forTest">
       <UniqueIdentifier>{a48cfc51-7d00-40e8-8511-735fc66bb153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1128-1131">
+      <UniqueIdentifier>{c6fa75c3-b163-4f57-8c6d-03b4cc82b965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1124-1127">
+      <UniqueIdentifier>{0c68a5e5-7b8a-4c0c-a4f6-e8066513da68}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -138,6 +141,36 @@
     </ClCompile>
     <ClCompile Include="1139 First Contact.cpp">
       <Filter>1136-1139</Filter>
+    </ClCompile>
+    <ClCompile Include="1132 Cut Integer.cpp">
+      <Filter>1132-1135_forTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1133 Splitting A Linked List.cpp">
+      <Filter>1132-1135_forTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1134 Vertex Cover.cpp">
+      <Filter>1132-1135_forTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1135 Is It A Red-Black Tree.cpp">
+      <Filter>1132-1135_forTest</Filter>
+    </ClCompile>
+    <ClCompile Include="1128 N Queens Puzzle.cpp">
+      <Filter>1128-1131</Filter>
+    </ClCompile>
+    <ClCompile Include="1131 Subway Map .cpp">
+      <Filter>1128-1131</Filter>
+    </ClCompile>
+    <ClCompile Include="1124 Raffle for Weibo Followers.cpp">
+      <Filter>1124-1127</Filter>
+    </ClCompile>
+    <ClCompile Include="1125 Chain the Ropes.cpp">
+      <Filter>1124-1127</Filter>
+    </ClCompile>
+    <ClCompile Include="1126 Eulerian Path.cpp">
+      <Filter>1124-1127</Filter>
+    </ClCompile>
+    <ClCompile Include="1086 Tree Traversals Again.cpp">
+      <Filter>source</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

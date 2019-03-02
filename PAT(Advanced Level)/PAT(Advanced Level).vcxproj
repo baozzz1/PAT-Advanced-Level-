@@ -127,13 +127,21 @@
     <ClCompile Include="1015 Reversible Primes.cpp" />
     <ClCompile Include="1022 Digital Library.cpp" />
     <ClCompile Include="1043 Is It a Binary Search Tree.cpp" />
+    <ClCompile Include="1086 Tree Traversals Again.cpp" />
     <ClCompile Include="1110 Complete Binary Tree.cpp" />
     <ClCompile Include="1115 Counting Nodes in a BST.cpp" />
     <ClCompile Include="1121 Damn Single.cpp" />
     <ClCompile Include="1123 Is It a Complete AVL Tree.cpp" />
+    <ClCompile Include="1124 Raffle for Weibo Followers.cpp" />
+    <ClCompile Include="1125 Chain the Ropes.cpp" />
+    <ClCompile Include="1126 Eulerian Path.cpp" />
     <ClCompile Include="1127 ZigZagging on a Tree.cpp" />
     <ClCompile Include="1129 Recommendation System.cpp" />
     <ClCompile Include="1130 Infix Expression.cpp" />
+    <ClCompile Include="1131 Subway Map .cpp" />
+    <ClCompile Include="1132 Cut Integer.cpp" />
+    <ClCompile Include="1134 Vertex Cover.cpp" />
+    <ClCompile Include="1135 Is It A Red-Black Tree.cpp" />
     <ClCompile Include="1136 A Delayed Palindrome.cpp" />
     <ClCompile Include="1137 Final Grading.cpp" />
     <ClCompile Include="1138 Postorder Traversal.cpp" />
@@ -149,6 +157,8 @@
     <ClCompile Include="1154 Vertex Coloring.cpp" />
     <ClCompile Include="1155 Heap Paths .cpp" />
     <ClCompile Include="preOrder-inOrder-postOrder Transaction.cpp" />
+    <ClCompile Include="1133 Splitting A Linked List.cpp" />
+    <ClCompile Include="1128 N Queens Puzzle.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
