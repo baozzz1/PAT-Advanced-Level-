@@ -127,6 +127,7 @@
     <ClCompile Include="1015 Reversible Primes.cpp" />
     <ClCompile Include="1022 Digital Library.cpp" />
     <ClCompile Include="1043 Is It a Binary Search Tree.cpp" />
+    <ClCompile Include="1045 Favorite Color Stripe.cpp" />
     <ClCompile Include="1086 Tree Traversals Again.cpp" />
     <ClCompile Include="1110 Complete Binary Tree.cpp" />
     <ClCompile Include="1115 Counting Nodes in a BST.cpp" />

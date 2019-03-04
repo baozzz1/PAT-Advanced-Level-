@@ -172,5 +172,8 @@
     <ClCompile Include="1086 Tree Traversals Again.cpp">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="1045 Favorite Color Stripe.cpp">
+      <Filter>mark</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
