@@ -94,33 +94,33 @@
 ////	return;
 ////}
 //
-int main() {
-	//start();
-	int x, y;
-	int absX, absY;
-	long res;
-	while (cin >> x) {
-		cin >> y;
-		//cout << maps[x + 10000][y + 10000] << endl;
-		//res = 0;
-		absX = abs(x); absY = abs(y);
-		bool isXmax = absX > absY;
-		int doubleNum = isXmax ? absX : absY;
-		int length = (doubleNum * 2 - 1);
-		res = length * length - 1;
-		if (absX >= absY)
-			if (x > 0)
-				res += (y + absX);
-			else
-				res += 2 * length + 2 + (doubleNum - y);
-		else {
-			if (y > 0)
-				res += length + 1 + (doubleNum - x);
-			else
-				res += 3 * length + 3 + (x + doubleNum);
-		}
-		cout << res << endl;
-	}
-
-	return 0;
-}
+//int main() {
+//	//start();
+//	int x, y;
+//	int absX, absY;
+//	long res;
+//	while (cin >> x) {
+//		cin >> y;
+//		//cout << maps[x + 10000][y + 10000] << endl;
+//		//res = 0;
+//		absX = abs(x); absY = abs(y);
+//		bool isXmax = absX > absY;
+//		int doubleNum = isXmax ? absX : absY;
+//		int length = (doubleNum * 2 - 1);
+//		res = length * length - 1;
+//		if (absX >= absY)
+//			if (x > 0)
+//				res += (y + absX);
+//			else
+//				res += 2 * length + 2 + (doubleNum - y);
+//		else {
+//			if (y > 0)
+//				res += length + 1 + (doubleNum - x);
+//			else
+//				res += 3 * length + 3 + (x + doubleNum);
+//		}
+//		cout << res << endl;
+//	}
+//
+//	return 0;
+//}
